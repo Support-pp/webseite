@@ -1,0 +1,5 @@
+# If you would like to report a security issue
+# you may report it to us.
+Contact: mailto:support@klexhub.com
+Preferred-Languages: de, en
+Canonical: https://support-pp.de/.well-known/security.txt
