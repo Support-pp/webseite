@@ -1,198 +1,572 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <title>Support++ - TeamSpeak Support System</title>
-    <meta name="twitter:description" content="Support++ ist ein Supportsystem basierend auf dem Sinusbot.
+    <meta
+      name="twitter:description"
+      content="Support++ ist ein Supportsystem basierend auf dem Sinusbot.
 Ein professioneller Support für Ihre Kunden!
-Starten Sie jetzt! Es ist KOSTENLOS!">
-    <meta name="keywords" content="support-pp, support, sinusbot, teamspeak, discord, support system, spp, teamspeak support">
-    <meta name="twitter:title" content="Support++">
-    <meta name="twitter:card" content="summary">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="/assets/img/iconmonstr-help-3-240.png?h=9427610eb770d5bcb84a61107b0b90df">
-    <meta name="twitter:image" content="/assets/img/iconmonstr-help-3-240.png?h=9427610eb770d5bcb84a61107b0b90df">
-    <meta name="description" content="Support++ ist ein Supportsystem basierend auf dem Sinusbot.
+Starten Sie jetzt! Es ist KOSTENLOS!"
+    />
+    <meta
+      name="keywords"
+      content="support-pp, support, sinusbot, teamspeak, discord, support system, spp, teamspeak support"
+    />
+    <meta name="twitter:title" content="Support++" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="/assets/img/iconmonstr-help-3-240.png?h=9427610eb770d5bcb84a61107b0b90df"
+    />
+    <meta
+      name="twitter:image"
+      content="/assets/img/iconmonstr-help-3-240.png?h=9427610eb770d5bcb84a61107b0b90df"
+    />
+    <meta
+      name="description"
+      content="Support++ ist ein Supportsystem basierend auf dem Sinusbot.
 Ein professioneller Support für Ihre Kunden!
-Starten Sie jetzt! Es ist KOSTENLOS!">
-    <meta property="og:description" content="Support++ ist ein Supportsystem basierend auf dem Sinusbot.
+Starten Sie jetzt! Es ist KOSTENLOS!"
+    />
+    <meta
+      property="og:description"
+      content="Support++ ist ein Supportsystem basierend auf dem Sinusbot.
 Ein professioneller Support für Ihre Kunden!
-Starten Sie jetzt! Es ist KOSTENLOS!">
-    <meta name="google-site-verification" content="zkzOBFG-KdNgiU94p87wvCP9KXQnxDVVJWJtaIOGx38" />
-    <link rel="icon" type="image/png" sizes="240x240" href="/assets/img/iconmonstr-help-3-240.png?h=9427610eb770d5bcb84a61107b0b90df">
-    <link rel="icon" type="image/png" sizes="240x240" href="/assets/img/iconmonstr-help-3-240.png?h=9427610eb770d5bcb84a61107b0b90df">
-    <link rel="icon" type="image/png" sizes="240x240" href="/assets/img/iconmonstr-help-3-240.png?h=9427610eb770d5bcb84a61107b0b90df">
-    <link rel="icon" type="image/png" sizes="240x240" href="/assets/img/iconmonstr-help-3-240.png?h=9427610eb770d5bcb84a61107b0b90df">
-    <link rel="icon" type="image/png" sizes="240x240" href="/assets/img/iconmonstr-help-3-240.png?h=9427610eb770d5bcb84a61107b0b90df">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="manifest" href="/manifest.json?h=57576ba9aadfd0badd2662487f5a2dd4">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,700&amp;subset=latin-ext,vietnamese">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="/assets/css/styles.min.css?h=5c1462c2114b891db8c578eb2be5adc6">
-</head>
+Starten Sie jetzt! Es ist KOSTENLOS!"
+    />
+    <meta
+      name="google-site-verification"
+      content="zkzOBFG-KdNgiU94p87wvCP9KXQnxDVVJWJtaIOGx38"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="240x240"
+      href="/assets/img/iconmonstr-help-3-240.png?h=9427610eb770d5bcb84a61107b0b90df"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="240x240"
+      href="/assets/img/iconmonstr-help-3-240.png?h=9427610eb770d5bcb84a61107b0b90df"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="240x240"
+      href="/assets/img/iconmonstr-help-3-240.png?h=9427610eb770d5bcb84a61107b0b90df"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="240x240"
+      href="/assets/img/iconmonstr-help-3-240.png?h=9427610eb770d5bcb84a61107b0b90df"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="240x240"
+      href="/assets/img/iconmonstr-help-3-240.png?h=9427610eb770d5bcb84a61107b0b90df"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="manifest"
+      href="/manifest.json?h=57576ba9aadfd0badd2662487f5a2dd4"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Nunito:400,700&amp;subset=latin-ext,vietnamese"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/css/styles.min.css?h=5c1462c2114b891db8c578eb2be5adc6"
+    />
+  </head>
 
-<body style="height: 100vh;background-color: #FFFFFF;color: #9baec8;">
+  <body style="height: 100vh; background-color: #ffffff; color: #9baec8;">
     <!-- Start: Navigation Clean -->
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="color: #9baec8;background-color: #232F3E;">
-        <div class="container"><a class="navbar-brand" href="/index.html" style="color: white;"><img src="/assets/img/c3d8807d8f6921324ddaab30637a2f86137cfbe1.png?h=a434361c202af6ef0f09f80ffd7e79c9" style="width: 40px;">Support++</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="https://github.com/Support-pp/Support-pp" style="color: white;" target="_blank">Quellcode</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="https://meta.support-pp.de/" style="color: white;" target="_blank">Forum</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="https://meta.support-pp.de/k" style="color: white;" target="_blank">Wiki</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#" style="color: white;">Ressourcen</a>
-                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="https://medium.com/support-pp" target="_blank">Blog</a><a class="dropdown-item" role="presentation" href="https://forum.sinusbot.com/resources/support.229/" target="_blank">Sinusbot</a>
-                            <a
-                                class="dropdown-item" role="presentation" href="https://sounds.support-pp.de" target="_blank">Sounds</a>
-                        </div>
-                    </li>
-                </ul>
+    <nav
+      class="navbar navbar-light navbar-expand-md navigation-clean"
+      style="color: #9baec8; background-color: #232f3e;"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="/index.html" style="color: white;"
+          ><img
+            src="/assets/img/c3d8807d8f6921324ddaab30637a2f86137cfbe1.png?h=a434361c202af6ef0f09f80ffd7e79c9"
+            style="width: 40px;"
+          />Support++</a
+        ><button
+          data-toggle="collapse"
+          class="navbar-toggler"
+          data-target="#navcol-1"
+        >
+          <span class="sr-only">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                href="https://github.com/Support-pp/Support-pp"
+                style="color: white;"
+                target="_blank"
+                >Quellcode</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                href="https://meta.support-pp.de/"
+                style="color: white;"
+                target="_blank"
+                >Forum</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                href="https://meta.support-pp.de/k"
+                style="color: white;"
+                target="_blank"
+                >Wiki</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="dropdown-toggle nav-link"
+                data-toggle="dropdown"
+                aria-expanded="false"
+                href="#"
+                style="color: white;"
+                >Ressourcen</a
+              >
+              <div class="dropdown-menu" role="menu">
+                <a
+                  class="dropdown-item"
+                  role="presentation"
+                  href="https://medium.com/support-pp"
+                  target="_blank"
+                  >Blog</a
+                ><a
+                  class="dropdown-item"
+                  role="presentation"
+                  href="https://forum.sinusbot.com/resources/support.229/"
+                  target="_blank"
+                  >Sinusbot</a
+                >
+                <a
+                  class="dropdown-item"
+                  role="presentation"
+                  href="https://sounds.support-pp.de"
+                  target="_blank"
+                  >Sounds</a
+                >
+              </div>
+            </li>
+          </ul>
         </div>
-        </div>
+      </div>
     </nav>
     <!-- End: Navigation Clean -->
     <section id="main">
-        <div class="container text-center header-section">
-            <h1 style="font-family: Nunito, sans-serif;font-weight: bold;font-style: normal;">Support++</h1>
-            <p style="font-family: Nunito, sans-serif;font-weight: bold;font-size: 18px;"><br>Supportsystem für TeamSpeak³ basierend auf dem Sinusbot.<br>Ein professioneller Support für Ihre Kunden!<br><br>Starten Sie jetzt! Es ist KOSTENLOS<br><br></p><a class="btn btn-primary sinusbot-download" role="button" href="https://forum.sinusbot.com/resources/support.229/"><img class="image-button-sinusbot" src="/assets/img/sinusbot-logo.png?h=e6889595219504b48657b59332e63a24"></a></div>
+      <div class="container text-center header-section">
+        <h1
+          style="
+            font-family: Nunito, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+          "
+        >
+          Support++
+        </h1>
+        <p
+          style="
+            font-family: Nunito, sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+          "
+        >
+          <br />Supportsystem für TeamSpeak³ basierend auf dem Sinusbot.<br />Ein
+          professioneller Support für Ihre Kunden!<br /><br />Starten Sie jetzt!
+          Es ist KOSTENLOS<br /><br />
+        </p>
+        <a
+          class="btn btn-primary sinusbot-download"
+          role="button"
+          href="https://forum.sinusbot.com/resources/support.229/"
+          ><img
+            class="image-button-sinusbot"
+            src="/assets/img/sinusbot-logo.png?h=e6889595219504b48657b59332e63a24"
+        /></a>
+      </div>
     </section>
     <section class="addons">
-        <div class="container text-center">
-            <h1 class="feature-title-h1" style="font-family: Nunito, sans-serif;font-weight: bold;font-style: normal;">Funktionen</h1>
-            <div class="row">
-                <div class="col">
-                    <div class="feature"><img class="feature-icon" src="/assets/img/iconmonstr-delivery-8-240.png?h=8a51b938641dccac619627763c0d0791">
-                        <h2 class="feature-heading">Ticket System&nbsp;</h2>
-                        <p class="text-center feature-text">Lasse TeamSpeak³ Nutzer Tickets erstellen. So verpasst du und dein Team keine Supportanfragen mehr. In Verbindung mit Discord oder Telegram, kannst du diese Tickets direkt aus deinem lieblings Messenger bearbeiten.<br><em>Bald kommt auch noch ein Webinterface, das optimale Ticket system also!</em>&nbsp;<br><br></p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="feature"><img class="feature-icon" src="/assets/img/iconmonstr-discord-1-240.png?h=8a6d206327329a173b2cf182f0b7e589">
-                        <h2 class="feature-heading">Hey Wumpus! Discord</h2>
-                        <p class="text-center feature-text">Erhalte Benachrichtigungen in deinem Discord Server. So bist du immer up to date. Verpasse keine Tickets oder Supportanfragen. Neben Discord, kannst du auch Telegram für Systembenachichtigungen einrichten.<br>Mehr informationen
-                            findest du hier: <a href="https://meta.support-pp.de/k/modules/discord-module-2-6-0/19"><span style="text-decoration: underline;">Discord Bot</span></a></p>
-                    </div>
-                </div>
+      <div class="container text-center">
+        <h1
+          class="feature-title-h1"
+          style="
+            font-family: Nunito, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+          "
+        >
+          Funktionen
+        </h1>
+        <div class="row">
+          <div class="col">
+            <div class="feature">
+              <img
+                class="feature-icon"
+                src="/assets/img/iconmonstr-delivery-8-240.png?h=8a51b938641dccac619627763c0d0791"
+              />
+              <h2 class="feature-heading">Ticket System&nbsp;</h2>
+              <p class="text-center feature-text">
+                Lasse TeamSpeak³ Nutzer Tickets erstellen. So verpasst du und
+                dein Team keine Supportanfragen mehr. In Verbindung mit Discord
+                oder Telegram, kannst du diese Tickets direkt aus deinem
+                lieblings Messenger bearbeiten.<br /><em
+                  >Bald kommt auch noch ein Webinterface, das optimale Ticket
+                  system also!</em
+                >&nbsp;<br /><br />
+              </p>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="feature"><img class="feature-icon" src="/assets/img/iconmonstr-coffee-10-240.png?h=2a2065c5b4dec15c2d3fbb8fcfb0c1d6">
-                        <h2 class="feature-heading">Kaffeepause, bitte</h2>
-                        <p class="text-center feature-text">Supporter brauchen Kaffee!&nbsp;<br>Setze dir einefach eine vorkonfigurierte Gruppe und schwub bist du für unser Supportsystem unsichtbar. Genieße deinen Kaffee ohne Supportanfragen zu erhalten.&nbsp;<br>Du wirst es lieben!<br><br></p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="feature"><img class="feature-icon" src="/assets/img/iconmonstr-time-6-240.png?h=5c6975e006e913a35be218271bf98837">
-                        <h2 class="feature-heading">Offline? Support geschlossen!</h2>
-                        <p class="text-center feature-text">Auch du brauchst mal eine Pause. Du kannst mit unserem Channel Module die channel automatisch schließen, wenn kein Support Agent mehr online ist. Oder du stellst feste Supportzeiten ein.&nbsp;<br>Und wenn das zu viel Magie für dich&nbsp;ist,
-                            kannst du auch einfach Commands zum schließen / öffnen festlegen. &nbsp;Deinen Fantasien sind keine Grenzen gesetzt.&nbsp;<br><br></p>
-                    </div>
-                </div>
+          </div>
+          <div class="col">
+            <div class="feature">
+              <img
+                class="feature-icon"
+                src="/assets/img/iconmonstr-discord-1-240.png?h=8a6d206327329a173b2cf182f0b7e589"
+              />
+              <h2 class="feature-heading">Hey Wumpus! Discord</h2>
+              <p class="text-center feature-text">
+                Erhalte Benachrichtigungen in deinem Discord Server. So bist du
+                immer up to date. Verpasse keine Tickets oder Supportanfragen.
+                Neben Discord, kannst du auch Telegram für
+                Systembenachichtigungen einrichten.<br />Mehr informationen
+                findest du hier:
+                <a
+                  href="https://meta.support-pp.de/k/modules/discord-module-2-6-0/19"
+                  ><span style="text-decoration: underline;"
+                    >Discord Bot</span
+                  ></a
+                >
+              </p>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="feature"><img class="feature-icon" src="/assets/img/iconmonstr-star-4-240.png?h=56686c7b86e4893a2e8818e99307ad15">
-                        <h2 class="feature-heading">Feedback System</h2>
-                        <p class="text-center feature-text">Feedback ist wichtig! Lege fest, welche Aspekte deine Nutzer bewerten sollen. Nach einem erfolgreichen Supportgespräch, wird der Nutzer nach einem Feedback gefragt. Die Bewertung funktioniert durch Sterne (1-5).<br>So kannst du
-                            gleich deine freundlichen und kompetenten Agenten finden.</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="feature"><img class="feature-icon" src="/assets/img/iconmonstr-audio-8-240.png?h=a640d53711e0e1a19f8d673c7b852790">
-                        <h2 class="feature-heading">Wartemusik. Och nöö</h2>
-                        <p class="text-center feature-text">Ja auch wir haben eine Möglichkeit, deine Nutzer mit schrecklicher Musik zu nerven. Spiele Musik oder eine Ansage in deinem Support Channel ab.&nbsp;<br>Du kannst dich gerne auch an unserer professionellen Ansagen bedienen.&nbsp;<br>
-                            <a
-                                href="https://sounds.support-pp.de">https://sounds.support-pp.de</a><br><br></p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="col">
+            <div class="feature">
+              <img
+                class="feature-icon"
+                src="/assets/img/iconmonstr-coffee-10-240.png?h=2a2065c5b4dec15c2d3fbb8fcfb0c1d6"
+              />
+              <h2 class="feature-heading">Kaffeepause, bitte</h2>
+              <p class="text-center feature-text">
+                Supporter brauchen Kaffee!&nbsp;<br />Setze dir einefach eine
+                vorkonfigurierte Gruppe und schwub bist du für unser
+                Supportsystem unsichtbar. Genieße deinen Kaffee ohne
+                Supportanfragen zu erhalten.&nbsp;<br />Du wirst es lieben!<br /><br />
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="feature">
+              <img
+                class="feature-icon"
+                src="/assets/img/iconmonstr-time-6-240.png?h=5c6975e006e913a35be218271bf98837"
+              />
+              <h2 class="feature-heading">Offline? Support geschlossen!</h2>
+              <p class="text-center feature-text">
+                Auch du brauchst mal eine Pause. Du kannst mit unserem Channel
+                Module die channel automatisch schließen, wenn kein Support
+                Agent mehr online ist. Oder du stellst feste Supportzeiten
+                ein.&nbsp;<br />Und wenn das zu viel Magie für dich&nbsp;ist,
+                kannst du auch einfach Commands zum schließen / öffnen
+                festlegen. &nbsp;Deinen Fantasien sind keine Grenzen
+                gesetzt.&nbsp;<br /><br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="feature">
+              <img
+                class="feature-icon"
+                src="/assets/img/iconmonstr-star-4-240.png?h=56686c7b86e4893a2e8818e99307ad15"
+              />
+              <h2 class="feature-heading">Feedback System</h2>
+              <p class="text-center feature-text">
+                Feedback ist wichtig! Lege fest, welche Aspekte deine Nutzer
+                bewerten sollen. Nach einem erfolgreichen Supportgespräch, wird
+                der Nutzer nach einem Feedback gefragt. Die Bewertung
+                funktioniert durch Sterne (1-5).<br />So kannst du gleich deine
+                freundlichen und kompetenten Agenten finden.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="feature">
+              <img
+                class="feature-icon"
+                src="/assets/img/iconmonstr-audio-8-240.png?h=a640d53711e0e1a19f8d673c7b852790"
+              />
+              <h2 class="feature-heading">Wartemusik. Och nöö</h2>
+              <p class="text-center feature-text">
+                Ja auch wir haben eine Möglichkeit, deine Nutzer mit
+                schrecklicher Musik zu nerven. Spiele Musik oder eine Ansage in
+                deinem Support Channel ab.&nbsp;<br />Du kannst dich gerne auch
+                an unserer professionellen Ansagen bedienen.&nbsp;<br />
+                <a href="https://sounds.support-pp.de"
+                  >https://sounds.support-pp.de</a
+                ><br /><br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="main">
-        <div class="container text-center header-section">
-            <h1 style="font-family: Nunito, sans-serif;font-weight: bold;font-style: normal;">Dir fehlt eine Funktion?</h1>
-            <p style="font-family: Nunito, sans-serif;font-weight: bold;font-size: 18px;">Na dann, frage uns doch einfach mal. <br>Wenn andere deine Idee auch so geil finden, setzen wir dieses gerne um.</p><a class="btn btn-primary sinusbot-download github" role="button" href="https://github.com/Support-pp/Support-pp/issues/new"><img class="image-button-github" src="/assets/img/GitHub-Mark-Light-32px.png?h=f97168c6c00d692684d9352bf2dedfc9"></a></div>
+      <div class="container text-center header-section">
+        <h1
+          style="
+            font-family: Nunito, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+          "
+        >
+          Dir fehlt eine Funktion?
+        </h1>
+        <p
+          style="
+            font-family: Nunito, sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+          "
+        >
+          Na dann, frage uns doch einfach mal. <br />Wenn andere deine Idee auch
+          so geil finden, setzen wir dieses gerne um.
+        </p>
+        <a
+          class="btn btn-primary sinusbot-download github"
+          role="button"
+          href="https://github.com/Support-pp/Support-pp/issues/new"
+          ><img
+            class="image-button-github"
+            src="/assets/img/GitHub-Mark-Light-32px.png?h=f97168c6c00d692684d9352bf2dedfc9"
+        /></a>
+      </div>
     </section>
     <section id="videos">
-        <div class="container text-center">
-            <h1 class="feature-title-h1" style="font-family: Nunito, sans-serif;font-weight: bold;font-style: normal;">Lass uns loslegen!<br><br></h1>
-            <div class="row">
-                <div class="col">
-                    <div class="feature"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/pWNic-77xjs" width="100%" height="400px"></iframe></div>
-                </div>
-                <div class="col">
-                    <div class="feature"><img class="feature-icon" src="/assets/img/iconmonstr-youtube-6-240.png?h=da07c71c9e28ffa3b6a3514abd04df34">
-                        <h2 class="feature-heading">Ganz viele Tutorials!&nbsp;</h2>
-                        <p class="text-center feature-text">Wir haben für euch Tutorials erstellt.<br>Diese erklären die Konfiguration der verschiedenen Module.&nbsp;<br>Eine Playlist findet Ihr hier: <a href="https://www.youtube.com/playlist?list=PL6h7BcFODbf2otfYxvEwfXHyD5KFbdfcp">Support++ Tutorials</a><br><br><em>Wir möchten uns hier auch nochmal bei "</em>
-                            <a
-                                href="https://www.youtube.com/channel/UCnJ4y5pdztxsu-HHg3Xp5ow"><em>HilfePus</em></a><em>" bedanken, der für euch&nbsp;freiwillig&nbsp;Support++ Tutorials erstellt hat.&nbsp;❤️&nbsp;</em><br><br></p>
-                    </div>
-                </div>
+      <div class="container text-center">
+        <h1
+          class="feature-title-h1"
+          style="
+            font-family: Nunito, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+          "
+        >
+          Lass uns loslegen!<br /><br />
+        </h1>
+        <div class="row">
+          <div class="col">
+            <div class="feature">
+              <img
+                id="videPreview"
+                src="/assets/img/c58d1e3e238f44adb336d8b186d46a94.png"
+                width="100%"
+                height="400px"
+              />
             </div>
+          </div>
+          <script>
+            const a = document.getElementById("videPreview");
+            a.onclick = function () {
+              const iframe = document.createElement("iframe");
+              iframe.allowFullscreen = true;
+              iframe.src =
+                "https://www.youtube-nocookie.com/embed/pWNic-77xjs?autoplay=1";
+              iframe.height = "400px";
+              iframe.allow =
+                "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";
+              iframe.width = "100%";
+              iframe.frameBorder = "0";
+              iframe.autop;
+              iframe.auto = "0";
+              a.replaceWith(iframe);
+            };
+          </script>
+          <div class="col">
+            <div class="feature">
+              <img
+                class="feature-icon"
+                src="/assets/img/iconmonstr-youtube-6-240.png?h=da07c71c9e28ffa3b6a3514abd04df34"
+              />
+              <h2 class="feature-heading">Ganz viele Tutorials!&nbsp;</h2>
+              <p class="text-center feature-text">
+                Wir haben für euch Tutorials erstellt.<br />Diese erklären die
+                Konfiguration der verschiedenen Module.&nbsp;<br />Eine Playlist
+                findet Ihr hier:
+                <a
+                  href="https://www.youtube.com/playlist?list=PL6h7BcFODbf2otfYxvEwfXHyD5KFbdfcp"
+                  >Support++ Tutorials</a
+                ><br /><br /><em>Wir möchten uns hier auch nochmal bei "</em>
+                <a
+                  href="https://www.youtube.com/channel/UCnJ4y5pdztxsu-HHg3Xp5ow"
+                  ><em>HilfePus</em></a
+                ><em
+                  >" bedanken, der für euch&nbsp;freiwillig&nbsp;Support++
+                  Tutorials erstellt hat.&nbsp;❤️&nbsp;</em
+                ><br /><br />
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <section id="main" class="sp">
-        <div class="container text-center header-section">
-            <h1 style="font-family: Nunito, sans-serif;font-weight: bold;font-style: normal;">Du hast weitere Fragen zu Support++?</h1>
-            <p style="font-family: Nunito, sans-serif;font-weight: bold;font-size: 18px;">Komme doch auf unseren Discord Server.</p><a class="btn btn-primary sinusbot-download discord" role="button" href="https://discordapp.com/invite/3acZCcu"><img class="image-button-discord" src="/assets/img/Discord-Logo-White.png?h=469b1a09194ea8379ce6952f37f09bf7"></a></div>
+      <div class="container text-center header-section">
+        <h1
+          style="
+            font-family: Nunito, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+          "
+        >
+          Du hast weitere Fragen zu Support++?
+        </h1>
+        <p
+          style="
+            font-family: Nunito, sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+          "
+        >
+          Komme doch auf unseren Discord Server.
+        </p>
+        <a
+          class="btn btn-primary sinusbot-download discord"
+          role="button"
+          href="https://discordapp.com/invite/3acZCcu"
+          ><img
+            class="image-button-discord"
+            src="/assets/img/Discord-Logo-White.png?h=469b1a09194ea8379ce6952f37f09bf7"
+        /></a>
+      </div>
     </section>
     <!-- Start: Footer Clean -->
     <div class="footer-clean">
-        <footer>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <!-- Start: Services -->
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>Support</h3>
-                        <ul>
-                            <li><a href="https://meta.support-pp.de/" target="_blank">Forum</a></li>
-                            <li><a href="https://discordapp.com/invite/3acZCcu" target="_blank">Discord</a></li>
-                            <li><a href="https://github.com/support-pp" target="_blank">GitHub</a></li>
-                        </ul>
-                    </div>
-                    <!-- End: Services -->
-                    <!-- Start: About -->
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>Support++</h3>
-                        <ul>
-                            <li><a href="https://medium.com/support-pp" target="_blank">Blog</a></li>
-                            <li><a href="https://sounds.support-pp.de" target="_blank">Sounds</a></li>
-                            <li><a href="https://status.support-pp.de/" target="_blank">Statuspage</a></li>
-                        </ul>
-                    </div>
-                    <!-- End: About -->
-                    <!-- Start: Careers -->
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>Über uns</h3>
-                        <ul>
-                            <li><a href="/impressum.html">Impressum</a></li>
-                            <li><a href="/datenschutz.html">Datenschutzerklärung</a></li>
-                        </ul>
-                    </div>
-                    <!-- End: Careers -->
-                    <!-- Start: Social Icons -->
-                    <div class="col-lg-3 item social"><a href="https://discordapp.com/invite/3acZCcu" target="_blank"><i class="fab fa-discord"></i></a><a href="https://www.youtube.com/channel/UCHC3oiUpFrQdl83mz4PNquQ" target="_blank"><i class="icon ion-social-youtube"></i></a><a href="https://github.com/support-pp"
-                            target="_blank"><i class="icon ion-social-octocat"></i></a><a href="https://twitter.com/support_pp_" target="_blank"><i class="icon ion-social-twitter"></i></a>
-                        <p class="copyright">KlexHub UG (haftungsbeschränkt) &copy; 
-                            <script type="text/javascript">
-                                document.write(new Date().getFullYear());
-                              </script>
-                        </p>
-                    </div>
-                    <!-- End: Social Icons -->
-                </div>
+      <footer>
+        <div class="container">
+          <div class="row justify-content-center">
+            <!-- Start: Services -->
+            <div class="col-sm-4 col-md-3 item">
+              <h3>Support</h3>
+              <ul>
+                <li>
+                  <a href="https://meta.support-pp.de/" target="_blank"
+                    >Forum</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://discordapp.com/invite/3acZCcu"
+                    target="_blank"
+                    >Discord</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/support-pp" target="_blank"
+                    >GitHub</a
+                  >
+                </li>
+              </ul>
             </div>
-        </footer>
+            <!-- End: Services -->
+            <!-- Start: About -->
+            <div class="col-sm-4 col-md-3 item">
+              <h3>Support++</h3>
+              <ul>
+                <li>
+                  <a href="https://medium.com/support-pp" target="_blank"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a href="https://sounds.support-pp.de" target="_blank"
+                    >Sounds</a
+                  >
+                </li>
+                <li>
+                  <a href="https://status.support-pp.de/" target="_blank"
+                    >Statuspage</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- End: About -->
+            <!-- Start: Careers -->
+            <div class="col-sm-4 col-md-3 item">
+              <h3>Über uns</h3>
+              <ul>
+                <li><a href="/impressum.html">Impressum</a></li>
+                <li><a href="/datenschutz.html">Datenschutzerklärung</a></li>
+              </ul>
+            </div>
+            <!-- End: Careers -->
+            <!-- Start: Social Icons -->
+            <div class="col-lg-3 item social">
+              <a href="https://discordapp.com/invite/3acZCcu" target="_blank"
+                ><i class="fab fa-discord"></i></a
+              ><a
+                href="https://www.youtube.com/channel/UCHC3oiUpFrQdl83mz4PNquQ"
+                target="_blank"
+                ><i class="icon ion-social-youtube"></i></a
+              ><a href="https://github.com/support-pp" target="_blank"
+                ><i class="icon ion-social-octocat"></i></a
+              ><a href="https://twitter.com/support_pp_" target="_blank"
+                ><i class="icon ion-social-twitter"></i
+              ></a>
+              <p class="copyright">
+                KlexHub UG (haftungsbeschränkt) &copy;
+                <script type="text/javascript">
+                  document.write(new Date().getFullYear());
+                </script>
+              </p>
+            </div>
+            <!-- End: Social Icons -->
+          </div>
+        </div>
+      </footer>
     </div>
     <!-- End: Footer Clean -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" id="cookiebanner" src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.2.2/cookiebanner.min.js"></script>
+    <script
+      type="text/javascript"
+      id="cookiebanner"
+      src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.2.2/cookiebanner.min.js"
+    ></script>
     <script src="https://6c14ykhh3030.statuspage.io/embed/script.js"></script>
-</body>
-
+  </body>
 </html>
