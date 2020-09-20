@@ -1,0 +1,61 @@
+<nav
+   class="navbar navbar-light navbar-expand-md navigation-clean"
+   style="color: #9baec8; background-color: #232f3e"
+   >
+   <div class="container">
+      <a class="navbar-brand" href="/index.html" style="color: white">
+      {{ hugo.Generator }} {{ $logo := "img/c3d8807d8f6921324ddaab30637a2f86137cfbe1.png" | absURL }}
+      <img
+         src="{{ $logo }}"
+         style="width: 40px"
+         />Support++</a
+         ><button
+         data-toggle="collapse"
+         class="navbar-toggler"
+         data-target="#navcol-1"
+         >
+      <span class="sr-only">Toggle navigation</span
+         ><span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navcol-1">
+         <ul class="nav navbar-nav ml-auto">
+            {{ range .Site.Menus.main }} 
+            {{ $icon := printf "<i data-feather=\"%s\"></i>" .Pre }}
+            {{ $text := print $icon " " .Name | safeHTML }}
+            {{ if eq .HasChildren false }}
+            <li class="nav-item" role="presentation">
+               <a
+                  class="nav-link"
+                  href="{{ .URL }}"
+                  style="color: white"
+                  >{{ $text }}</a
+                  >  
+            </li>
+            {{ end }}
+            {{ if .HasChildren }}
+            <li class="nav-item dropdown">
+               <a
+                  class="dropdown-toggle nav-link"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                  href="#"
+                  style="color: white"
+                  >{{ $text }}</a
+                  >  
+               <div class="dropdown-menu" role="menu">
+                  {{ range .Children }}
+                  <a
+                     class="dropdown-item"
+                     role="presentation"
+                     href="{{ .URL }}"
+                     >{{ .Name }}</a
+                     >
+                  {{ end }}
+               </div>
+            </li>
+            {{ end }}
+            {{ end }}
+         </ul>
+      </div>
+   </div>
+</nav>

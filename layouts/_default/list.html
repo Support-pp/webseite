@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<div class="container">
+  <br><br>
+<h1>{{ .Title }}</h1>
+{{ range .Pages.ByPublishDate.Reverse }}
+<hr>
+<div class="row">
+  <div class="column"><img{{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}" width="160px"></div>
+  <div class="column" style="padding-left: 30px;">
+    <p>
+      <b><a class="font-125" href="{{ .RelPermalink }}">{{ .Title }}</a></b>
+      <br>
+      <small>{{ partial "date-and-tags.html" . }}</small>
+    </p>
+  </div>
+  </div>
+
+{{ end }}
+</div>
+{{ partial "widget/questions.html" . }}
+{{ end }}

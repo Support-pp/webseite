@@ -1,0 +1,68 @@
+<section id="videos">
+    <div class="container text-center">
+      <h1
+        class="feature-title-h1"
+        style="
+          font-family: Nunito, sans-serif;
+          font-weight: bold;
+          font-style: normal;
+        "
+      >
+        Lass uns loslegen!<br /><br />
+      </h1>
+      <div class="row">
+        <div class="col">
+          <div class="feature">
+            <img
+              id="videPreview"
+              src="/img/c58d1e3e238f44adb336d8b186d46a94.png"
+              width="100%"
+              height="400px"
+            />
+          </div>
+        </div>
+        <script>
+          const a = document.getElementById("videPreview");
+          a.onclick = function () {
+            const iframe = document.createElement("iframe");
+            iframe.allowFullscreen = true;
+            iframe.src =
+              "https://www.youtube-nocookie.com/embed/pWNic-77xjs?autoplay=1";
+            iframe.height = "400px";
+            iframe.allow =
+              "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";
+            iframe.width = "100%";
+            iframe.frameBorder = "0";
+            iframe.autop;
+            iframe.auto = "0";
+            a.replaceWith(iframe);
+          };
+        </script>
+        <div class="col">
+          <div class="feature">
+            <img
+              class="feature-icon"
+              src="/img/iconmonstr-youtube-6-240.png?h=da07c71c9e28ffa3b6a3514abd04df34"
+            />
+            <h2 class="feature-heading">Ganz viele Tutorials!&nbsp;</h2>
+            <p class="text-center feature-text">
+              Wir haben für euch Tutorials erstellt.<br />Diese erklären die
+              Konfiguration der verschiedenen Module.&nbsp;<br />Eine Playlist
+              findet Ihr hier:
+              <a
+                href="https://www.youtube.com/playlist?list=PL6h7BcFODbf2otfYxvEwfXHyD5KFbdfcp"
+                >Support++ Tutorials</a
+              ><br /><br /><em>Wir möchten uns hier auch nochmal bei "</em>
+              <a
+                href="https://www.youtube.com/channel/UCnJ4y5pdztxsu-HHg3Xp5ow"
+                ><em>HilfePus</em></a
+              ><em
+                >" bedanken, der für euch&nbsp;freiwillig&nbsp;Support++
+                Tutorials erstellt hat.&nbsp;❤️&nbsp;</em
+              ><br /><br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

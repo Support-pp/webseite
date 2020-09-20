@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="container">
+<br/>
+    <div class="row">
+        <div class="column">  <img style="border-radius: 90%;" src="{{ .Params.photo }}" alt="" width="200px"/></div>
+        <div class="column" style="padding-left: 80px;">    <br>
+            <h1>{{ .Params.name }}</h1>
+  
+    {{ .Content }}
+    {{ with .Params.twitter }}
+    <p>
+        E-Mail: <a href="mailto://{{ $.Params.email }}"> {{ $.Params.email }}</a><br/>
+        GitHub: <a href="https://github.com/{{ $.Params.github }}"> {{ $.Params.github }}</a><br>
+        Twitter: <a href="https://twitter.com/{{ substr . 1 }}">{{ $.Params.twitter }}</a>
+    </p>
+</div>
+</div>
+
+    {{ end }}
+
+    <h2>Articles</h2>
+    <ul>
+    {{ range .Data.Pages }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    </ul>
+</div>
+{{ partial "widget/questions.html" . }}
+{{end}}
