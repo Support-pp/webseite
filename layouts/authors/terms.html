@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<div class="container">
+    <br>
+    <h1>Authoren</h1>
+    <p>Hier kannst du unsere Support++ Blog Authoren finden.</p>
+    <ul>
+    {{ range .Data.Pages }}
+    <hr>
+    <div class="row">
+        <div class="column"><img{{ with .Params.photo }} src="{{ . }}"{{ end }} alt="{{ .Title }}" width="80px" style="border-radius: 90%;"></div>
+        <div class="column" style="padding-left: 30px;">
+          <p>
+            <b><a class="font-125" href="{{ .Permalink }}">{{ .Params.name }}</a></b>
+            <br>
+            <small>{{ .Params.email }}</small>
+          </p>
+        </div>
+        </div>
+ 
+    {{ end }}
+    </ul>
+</div>
+{{ partial "widget/questions.html" . }}
+
+{{end}}
+
+
+

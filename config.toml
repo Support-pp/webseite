@@ -1,0 +1,50 @@
+baseURL = "https://support-pp.de"
+languageCode = "de-de"
+title = "Support++"
+
+[taxonomies]
+  tag = "tags"
+  author = "authors"
+
+[permalinks]
+  blog = "/:filename/"
+
+# Menu
+[menu]
+  [[menu.main]]
+    name = "Quellcode"
+    hrefTargetBlank = true
+    url = "https://github.com/Support-pp/Support-pp"
+  [[menu.main]]
+    name = "Docs"
+    hrefTargetBlank = true
+    url = "https://docs.support-pp.de/"
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    [[menu.main]]
+    parent = "parent"
+    name = "Authoren"
+    url = "/authors/"
+  [[menu.main]]
+    identifier = "parent"
+    name = "Ressourcen"
+    url = "/tags/"
+  [[menu.main]]
+    parent = "parent"
+    name = "Medium"
+    hrefTargetBlank = true
+    url = "https://medium.com/support-pp"
+  [[menu.main]]
+    parent = "parent"
+    name = "Sinusbot"
+    hrefTargetBlank = true
+    url = "https://forum.sinusbot.com/resources/support.229/"
+  [[menu.main]]
+    parent = "parent"
+    name = "Sounds"
+    hrefTargetBlank = true
+    url = "https://sounds.support-pp.de"
+  
+[params]
+  dateFormat =  "02.01.22" 
