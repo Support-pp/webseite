@@ -294,3 +294,12 @@
 .image-button-discord {
   width: 20%;
 }
+.image-button-email {
+  color: white;
+}
+.rc-anchor-invisible {
+  display: none;
+}
+.emailoctopus-form {
+  color: white;
+}
