@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <url>
-        <loc>https://support-pp.de/datenschutz.html</loc>
-    </url>
-    <url>
-        <loc>https://support-pp.de/impressum.html</loc>
-    </url>
-    <url>
-        <loc>https://support-pp.de/index.html</loc>
-    </url>
-      <url>
-        <loc>https://sounds.support-pp.de</loc>
-    </url>
-    <url>
-        <loc>https://docs.support-pp.de</loc>
-    </url>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<url>
+		<loc>https://support-pp.de/datenschutz.html</loc>
+	</url>
+	<url>
+		<loc>https://support-pp.de/impressum.html</loc>
+	</url>
+	<url>
+		<loc>https://support-pp.de/index.html</loc>
+	</url>
+	<url>
+		<loc>https://sounds.support-pp.de</loc>
+	</url>
+	<url>
+		<loc>https://docs.support-pp.de</loc>
+	</url>
+	<url>
+		<loc>https://support-pp.de/index.html</loc>
+	</url>
+	<url>
+		<loc>https://support-pp.de/authors</loc>
+	</url>
+	<url>
+		<loc>https://support-pp.de/version-2-6-2</loc>
+	</url>
+	<url>
+		<loc>https://support-pp.de/blacklivesmatter</loc>
+	</url>
+	<url>
+		<loc>https://support-pp.de/tags/github</loc>
+	</url>
+	<url>
+		<loc>https://support-pp.de/tags/information</loc>
+	</url>
 </urlset>
