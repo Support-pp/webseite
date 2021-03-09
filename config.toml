@@ -18,7 +18,7 @@ title = "Support++"
   [[menu.main]]
     name = "Docs"
     hrefTargetBlank = true
-    url = "https://docs.support-pp.de/"
+    url = "https://developers.klexhub.com/support-pp/"
   [[menu.main]]
     name = "Blog"
     url = "/blog/"
